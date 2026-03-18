@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vincent Arrage – Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">VA</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact" class="btn-nav">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow glow-1"></div>
+      <div class="hero-glow glow-2"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow"><span class="dot"></span> Available for opportunities</p>
+      <h1>Vincent <span class="accent">Arrage</span></h1>
+      <h2>Software Engineer III</h2>
+      <p class="hero-desc">
+        Building mission-critical software that keeps people safe. Specializing in high-performance,
+        real-time systems with a passion for clean architecture and elegant solutions.
+      </p>
+      <div class="hero-actions">
+        <a href="#experience" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-secondary">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">6+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">911</span>
+          <span class="stat-label">CAD Systems</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100x</span>
+          <span class="stat-label">Perf. Improvement</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">01 / About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Crafting Software That <span class="accent">Matters</span></h2>
+          <p>
+            I'm a bilingual (EN/FR) Software Engineer based in Gatineau, QC, with over 6 years of
+            professional experience building robust, high-stakes applications. Currently at
+            <strong>Versaterm Public Safety</strong>, I contribute to the mission-critical 911
+            Computer-Aided Dispatch system used by emergency services across Canada and the USA.
+          </p>
+          <p>
+            I thrive at the intersection of performance engineering and user experience — whether
+            that's reducing algorithm complexity from O(n²) to O(n) for GPS-critical dispatching,
+            or leading UI modernization initiatives that directly improve operator efficiency
+            under pressure.
+          </p>
+          <p>
+            Beyond individual contribution, I take pride in <strong>growing the people around me</strong>.
+            I've mentored new hires, led onboarding, and conducted interviews — believing that a
+            strong team compounds its impact far beyond what any one engineer can deliver alone.
+          </p>
+          <p>
+            Outside of work I stay curious: you'll find me at the piano, underwater on a scuba dive,
+            or exploring a new country.
+          </p>
+        </div>
+        <div class="about-card">
+          <div class="card-inner">
+            <div class="card-row">
+              <span class="card-icon">📍</span>
+              <span>Gatineau, QC, Canada</span>
+            </div>
+            <div class="card-row">
+              <span class="card-icon">💼</span>
+              <span>Versaterm Public Safety</span>
+            </div>
+            <div class="card-row">
+              <span class="card-icon">🎓</span>
+              <span>B.Sc. Computer Science – uOttawa</span>
+            </div>
+            <div class="card-row">
+              <span class="card-icon">🌐</span>
+              <span>English & French (bilingual)</span>
+            </div>
+            <div class="card-row">
+              <span class="card-icon">🛡️</span>
+              <span>24/7 On-call support veteran</span>
+            </div>
+            <a href="mailto:vincentarrage@gmail.com" class="btn-primary card-cta">Say Hello</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-label">02 / Experience</div>
+      <h2 class="section-title">Where I've <span class="accent">Worked</span></h2>
+      <div class="timeline">
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tcard-header">
+              <div>
+                <h3>Software Engineer III <span class="tcard-role-sep">·</span> Full Stack</h3>
+                <p class="tcard-company">Versaterm Public Safety</p>
+              </div>
+              <span class="tcard-date">Aug 2022 – Present</span>
+            </div>
+            <p class="tcard-location">Ottawa, Canada</p>
+            <ul class="tcard-bullets">
+              <li>Core member of the mission-critical <strong>911 CAD (Computer-Aided Dispatch)</strong> system serving emergency services across Canada & USA.</li>
+              <li>Built CAD interfaces that automate 911 call creation from building alarm triggers, <strong>reducing emergency response initiation time by up to 120 seconds per event</strong>.</li>
+              <li>Led optimization of unit status-change algorithms — reduced time complexity from <code>O(n²)</code> to <code>O(n)</code>, delivering <strong>up to 100× faster performance</strong> and improving GPS accuracy for large client agencies.</li>
+              <li>Led a co-op project with two students to localize all user-facing strings, enhancing internationalization support and UI consistency.</li>
+              <li>Contributed to a full UI rework, transitioning from <strong>WinForms to WPF (C#)</strong> for a modern, maintainable architecture.</li>
+              <li>Mentored new hires and conducted interviews to support team growth and development.</li>
+              <li>Member of the <strong>24/7 on-call support rotation</strong> for urgent technical issues after-hours.</li>
+              <li>Collaborated with clients across Canada & USA for technical support and hot-fix deployments in English & French.</li>
+            </ul>
+            <div class="tcard-tags">
+              <span>C#</span><span>WPF</span><span>WinForms</span><span>SQL Server</span><span>PostgreSQL</span><span>Full Stack</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tcard-header">
+              <div>
+                <h3>Programmer → Programmer Analyst</h3>
+                <p class="tcard-company">Employment and Social Development Canada</p>
+              </div>
+              <span class="tcard-date">Jun 2016 – Aug 2022</span>
+            </div>
+            <p class="tcard-location">Gatineau, Canada</p>
+
+            <div class="tcard-promotion-track">
+              <div class="promo-role">
+                <div class="promo-role-header">
+                  <span class="promo-badge">IT-01 · Intern (2016–2020)</span>
+                  <span class="promo-arrow">→</span>
+                  <span class="promo-badge promo-badge--promoted">IT-01 · Programmer (2020–2021)</span>
+                  <span class="promo-arrow">→</span>
+                  <span class="promo-badge promo-badge--senior">IT-02 · Programmer Analyst (2021–2022)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="tcard-subrole">
+              <h4 class="tcard-subrole-title">IT-01 · Programmer <span class="tcard-subrole-date">2016 – 2021 <span class="tcard-intern-tag">Intern 2016–2020</span></span></h4>
+              <ul class="tcard-bullets">
+                <li>Developed new functionality using the <strong>MVC framework</strong> with ASP.NET.</li>
+                <li>Analyzed and resolved bugs in the system's GUI and Oracle SQL database.</li>
+                <li>Developed <strong>stored procedures</strong> to automate employee task workflows, improving efficiency.</li>
+                <li>Refactored and optimized legacy codebase for performance and maintainability.</li>
+              </ul>
+            </div>
+            <div class="tcard-subrole">
+              <h4 class="tcard-subrole-title tcard-subrole-title--promoted">IT-02 · Programmer Analyst <span class="tcard-subrole-date">2021 – 2022</span></h4>
+              <ul class="tcard-bullets">
+                <li>Collaborated with system integrators (CGI, Deloitte) to develop and enhance enterprise applications.</li>
+                <li>Customized application functionality using <strong>Java</strong> based on defined use cases.</li>
+                <li>Developed and executed test cases to ensure application stability and functional accuracy.</li>
+              </ul>
+            </div>
+            <div class="tcard-tags">
+              <span>ASP.NET</span><span>MVC</span><span>Java</span><span>JUnit</span><span>Oracle SQL</span><span>JavaScript</span><span>HTML/CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item older-exp" data-aos>
+          <div class="timeline-dot timeline-dot--coop"></div>
+          <div class="timeline-card timeline-card--coop">
+            <p class="older-exp-label">Earlier Experience</p>
+            <div class="older-exp-list">
+              <div class="older-exp-row">
+                <div>
+                  <span class="older-exp-title">Application Support Specialist <span class="tcard-role-sep">·</span> Co-op</span>
+                  <span class="older-exp-company">Brookfield Renewable Energy</span>
+                </div>
+                <span class="tcard-date">May – Aug 2015</span>
+              </div>
+              <div class="older-exp-row">
+                <div>
+                  <span class="older-exp-title">Web Developer <span class="tcard-role-sep">·</span> Co-op</span>
+                  <span class="older-exp-company">Canada Revenue Agency</span>
+                </div>
+                <span class="tcard-date">May – Aug 2014</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">03 / Skills</div>
+      <h2 class="section-title">Technical <span class="accent">Toolkit</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-category" data-aos>
+          <div class="skill-cat-icon">⌨️</div>
+          <h3>Languages</h3>
+          <div class="skill-pills">
+            <span>C#</span><span>Python</span><span>Java</span><span>JavaScript</span>
+            <span>HTML / CSS</span><span>XML</span><span>Genero 4GL</span>
+            <span>Oracle SQL</span><span>PostgreSQL</span><span>SQL Server</span><span>Informix</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos>
+          <div class="skill-cat-icon">🏗️</div>
+          <h3>Frameworks</h3>
+          <div class="skill-pills">
+            <span>WPF</span><span>WinForms</span><span>ASP.NET</span>
+            <span>MVC</span><span>JUnit</span><span>Android</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos>
+          <div class="skill-cat-icon">🛠️</div>
+          <h3>Tools & Platforms</h3>
+          <div class="skill-pills">
+            <span>Linux</span><span>GitLab</span><span>GitHub</span><span>Visual Studio</span>
+            <span>Fiddler</span><span>Vim</span><span>SOAPUI</span><span>Postman</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos>
+          <div class="skill-cat-icon">🧠</div>
+          <h3>Core Competencies</h3>
+          <div class="skill-pills">
+            <span>Full Stack Dev</span><span>Performance Optimization</span>
+            <span>Legacy Refactoring</span><span>Algorithm Design</span>
+            <span>Technical Leadership</span><span>Mentorship</span>
+            <span>Bilingual (EN/FR)</span><span>Client Relations</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <div class="section-label">04 / Education</div>
+      <h2 class="section-title">Academic <span class="accent">Background</span></h2>
+      <div class="edu-grid">
+
+        <div class="edu-card" data-aos>
+          <div class="edu-icon">🎓</div>
+          <div class="edu-body">
+            <h3>Bachelor of Science (Honours)</h3>
+            <p class="edu-sub">Computer Science · Management &amp; Entrepreneurship</p>
+            <p class="edu-school">University of Ottawa</p>
+            <span class="edu-date">September 2016 – April 2020 · Ottawa, Canada</span>
+          </div>
+        </div>
+
+        <div class="edu-card" data-aos>
+          <div class="edu-icon">📜</div>
+          <div class="edu-body">
+            <h3>Diploma of College Studies</h3>
+            <p class="edu-sub">Computer Science</p>
+            <p class="edu-school">Heritage College</p>
+            <span class="edu-date">August 2013 – May 2016 · Gatineau, Canada</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section id="hobbies">
+    <div class="container">
+      <div class="section-label">05 / Beyond Code</div>
+      <h2 class="section-title">Life Outside <span class="accent">the Terminal</span></h2>
+      <p class="hobbies-intro">
+        Great engineers are curious people. Here's what keeps me inspired beyond the screen.
+      </p>
+      <div class="hobbies-grid">
+
+        <div class="hobby-card" data-aos>
+          <div class="hobby-visual donor-visual">
+            <div class="donor-icon">🩸</div>
+            <div class="donor-count">15+</div>
+          </div>
+          <h3>Blood & Plasma Donor</h3>
+          <p>A proud 15+ time donor. Giving back is a commitment — every donation can save up to three lives.</p>
+        </div>
+
+        <div class="hobby-card" data-aos>
+          <div class="hobby-visual piano-visual">
+            <div class="piano-keys">
+              <div class="key white"></div><div class="key black"></div>
+              <div class="key white"></div><div class="key black"></div>
+              <div class="key white"></div>
+              <div class="key white"></div><div class="key black"></div>
+              <div class="key white"></div><div class="key black"></div>
+              <div class="key white"></div><div class="key black"></div>
+              <div class="key white"></div>
+            </div>
+          </div>
+          <h3>Piano</h3>
+          <p>Music and programming share the same beautiful logic — patterns, structure, and creativity. Playing piano keeps my mind sharp and creative.</p>
+        </div>
+
+        <div class="hobby-card" data-aos>
+          <div class="hobby-visual scuba-visual">
+            <div class="bubbles">
+              <div class="bubble b1"></div>
+              <div class="bubble b2"></div>
+              <div class="bubble b3"></div>
+              <div class="bubble b4"></div>
+            </div>
+            <div class="diver">🤿</div>
+          </div>
+          <h3>Scuba Diving</h3>
+          <p>Exploring the underwater world demands focus, preparation, and calm under pressure — skills that translate directly to debugging production incidents.</p>
+        </div>
+
+        <div class="hobby-card" data-aos>
+          <div class="hobby-visual sports-visual">
+            <div class="sports-icons">
+              <span class="sport-icon">⚽</span>
+              <span class="sport-icon">🏃</span>
+              <span class="sport-icon">🏊</span>
+            </div>
+          </div>
+          <h3>Sports</h3>
+          <p>Staying active through team sports, running, and swimming. Physical fitness fuels mental clarity and keeps me performing at my best.</p>
+        </div>
+
+        <div class="hobby-card" data-aos>
+          <div class="hobby-visual travel-visual">
+            <div class="globe-container">
+              <div class="globe">🌍</div>
+              <div class="orbit-ring"></div>
+            </div>
+          </div>
+          <h3>Travelling</h3>
+          <p>Experiencing new cultures and perspectives broadens my world view and fuels the empathy needed to build software that works for everyone.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">06 / Contact</div>
+      <div class="contact-inner">
+        <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+        <p class="contact-sub">
+          Open to new opportunities, collaborations, or just a good conversation about tech.
+          Reach out — I respond in both English and French.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:vincentarrage@gmail.com" class="contact-link">
+            <span class="contact-link-icon">✉️</span>
+            <div>
+              <span class="contact-link-label">Email</span>
+              <span class="contact-link-value">vincentarrage@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+18199184628" class="contact-link">
+            <span class="contact-link-icon">📞</span>
+            <div>
+              <span class="contact-link-label">Phone</span>
+              <span class="contact-link-value">819-918-4628</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/vincent-arrage/" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <span class="contact-link-icon">💼</span>
+            <div>
+              <span class="contact-link-label">LinkedIn</span>
+              <span class="contact-link-value">vincent-arrage</span>
+            </div>
+          </a>
+        </div>
+        <div class="contact-availability">
+          <span class="avail-dot"></span>
+          Currently available for new opportunities
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>Designed &amp; Built by <strong>Vincent Arrage</strong> · Gatineau, QC</p>
+      <p class="footer-sub">Built with HTML, CSS &amp; vanilla JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
